@@ -34,5 +34,17 @@ namespace YemekTarifiSite
             DataList2.DataBind();
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {            //yorum yapma butonu
+            SqlCommand komut = new SqlCommand("insert into Tbl_Yorumlar(YorumAdSoyad,YorumMail,Yorumicerik,Yemekid) values(@p1,@p2,@p3,@p4)",bgl.baglanti());
+            komut.Parameters.AddWithValue("@p1",TextBox1.Text);
+            komut.Parameters.AddWithValue("@p2",TextBox2.Text);
+            komut.Parameters.AddWithValue("@p3",TextBox3.Text);
+            komut.Parameters.AddWithValue("@p4",yemekid);
+            komut.ExecuteNonQuery();
+            bgl.baglanti().Close(); 
+
+        }
     }
 }
