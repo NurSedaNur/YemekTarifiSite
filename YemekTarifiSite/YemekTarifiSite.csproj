@@ -73,6 +73,7 @@
     <Content Include="iletisim.aspx" />
     <Content Include="Kullanici.css" />
     <Content Include="resimler\makarna.jpeg" />
+    <Content Include="resimler\team.png" />
     <Content Include="TarifOner.aspx" />
     <Content Include="Web.config" />
     <Content Include="YemekDetay.aspx" />

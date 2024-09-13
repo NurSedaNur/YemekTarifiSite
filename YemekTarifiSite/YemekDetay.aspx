@@ -3,7 +3,7 @@
     <style type="text/css">
         .auto-style6 {
             font-size: 40px;
-            color: #FFFFFF;
+            color: #660033;
         }
         .auto-style7 {
             width: 100%;
@@ -35,7 +35,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <strong>
     <asp:Label ID="Label3" runat="server" CssClass="auto-style6" Text="Label"></asp:Label>
-    <br />
+    <br /><br />
     </strong>
     <asp:DataList ID="DataList2" runat="server" Width="387px">
         <ItemTemplate>
