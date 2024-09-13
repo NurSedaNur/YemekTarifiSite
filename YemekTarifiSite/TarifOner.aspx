@@ -27,19 +27,19 @@
         <tr>
             <td class="auto-style5">Tarif Ad:</td>
             <td>
-                <asp:TextBox ID="TxtTarifAd" runat="server" Width="250px"></asp:TextBox>
+                <asp:TextBox ID="TxtTarifAd" runat="server" Width="250px" CssClass="tb5"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style5">Malzemeler:</td>
             <td>
-                <asp:TextBox ID="TxtMalzemeler" runat="server" Height="80px" TextMode="MultiLine" Width="250px"></asp:TextBox>
+                <asp:TextBox ID="TxtMalzemeler" runat="server" Height="80px" TextMode="MultiLine" Width="250px" CssClass="tb5"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style5">Yapılış:</td>
             <td>
-                <asp:TextBox ID="TxtYapilis" runat="server" Height="150px" TextMode="MultiLine" Width="250px"></asp:TextBox>
+                <asp:TextBox ID="TxtYapilis" runat="server" Height="150px" TextMode="MultiLine" Width="250px" CssClass="tb5"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -51,13 +51,13 @@
         <tr>
             <td class="auto-style6">Tarif Öneren:</td>
             <td class="auto-style7">
-                <asp:TextBox ID="TxtTarifOneren" runat="server" Width="250px"></asp:TextBox>
+                <asp:TextBox ID="TxtTarifOneren" runat="server" Width="250px" CssClass="tb5"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style6">Mail Adres:</td>
             <td class="auto-style7">
-                <asp:TextBox ID="TxtMailAdresi" runat="server" TextMode="Email" Width="250px"></asp:TextBox>
+                <asp:TextBox ID="TxtMailAdresi" runat="server" TextMode="Email" Width="250px" CssClass="tb5"></asp:TextBox>
             </td>
         </tr>
         <tr>
