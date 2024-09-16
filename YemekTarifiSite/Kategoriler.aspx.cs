@@ -50,6 +50,11 @@ namespace YemekTarifiSite
 
         protected void Button5_Click(object sender, EventArgs e)
         {
+            SqlCommand komut = new SqlCommand("Insert into Tbl_Kategoriler (KategoriAd) Values (@p1)",bgl.baglanti());
+            komut.Parameters.AddWithValue("@p1",TextBox1.Text);
+            komut.ExecuteNonQuery();
+            bgl.baglanti().Close();
+
 
         }
     }

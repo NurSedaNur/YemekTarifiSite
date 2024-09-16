@@ -117,7 +117,7 @@
             <tr>
                 <td>KATEGORİ İKON:</td>
                 <td class="auto-style18">
-                    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                    <asp:FileUpload ID="FileUpload1" runat="server" />
                 </td>
             </tr>
             <tr>
