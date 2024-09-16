@@ -37,6 +37,7 @@
 <body>
     <form id="form1" runat="server">
         <div style="height: 150px; width: 700px; margin-left: 300px; background-color: #ce7171;">
+            <asp:Image ID="Image1" runat="server" Height="150px" ImageUrl="~/resimler/Banner/header3.jpeg" Width="701px" />
         </div>
         <div style="height: 20px; width: 700px; margin-left: 300px;">&nbsp</div>
         <div style="margin-left: 300px; background-color: #fff" class="auto-style5">
