@@ -50,6 +50,10 @@
         .auto-style19 {
             font-weight: bold;
         }
+        .auto-style20 {
+            margin-left: 80px;
+            text-align: center;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder3" runat="server">
@@ -110,21 +114,34 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td>KATEGORİ AD: </td>
+                <td>YEMEK AD: </td>
                 <td class="auto-style17">
-                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" Width="275px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
-                <td>KATEGORİ İKON:</td>
+                <td>MALZEMELER:</td>
                 <td class="auto-style18">
-                    <asp:FileUpload ID="FileUpload1" runat="server" />
+                    <asp:TextBox ID="TextBox2" runat="server" Height="100px" TextMode="MultiLine" Width="275px"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td>YEMEK TARİFİ:</td>
+                <td class="auto-style18">
+                    <asp:TextBox ID="TextBox3" runat="server" Height="200px" TextMode="MultiLine" Width="275px"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td>KATEGORİ: </td>
+                <td class="auto-style18">
+                    <asp:DropDownList ID="DropDownList1" runat="server" Width="275px">
+                    </asp:DropDownList>
                 </td>
             </tr>
             <tr>
                 <td>&nbsp;</td>
-                <td class="auto-style18"><strong>
-                    <asp:Button ID="Button5" runat="server" CssClass="auto-style19" Text="Ekle" Width="130px" />
+                <td class="auto-style20"><strong>
+                    <asp:Button ID="Button6" runat="server" CssClass="auto-style19" Text="Ekle" Width="130px" OnClick="Button6_Click" />
                     </strong></td>
             </tr>
             <tr>
