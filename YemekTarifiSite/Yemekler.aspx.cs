@@ -15,6 +15,7 @@ namespace YemekTarifiSite
         {
             Panel2.Visible = false;
             Panel4.Visible = false;
+            
             if (Page.IsPostBack == false)
             {
                 //Kategori listesi
