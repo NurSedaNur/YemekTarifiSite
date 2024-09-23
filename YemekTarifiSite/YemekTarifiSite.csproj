@@ -76,15 +76,18 @@
     <Content Include="KategoriDetay.aspx" />
     <Content Include="Kategoriler.aspx" />
     <Content Include="Kullanici.css" />
+    <Content Include="Mesajlar.aspx" />
     <Content Include="resimler\Banner\admin1.jpeg" />
     <Content Include="resimler\Banner\header1.jpeg" />
     <Content Include="resimler\Banner\header2.jpeg" />
     <Content Include="resimler\Banner\header3.jpeg" />
     <Content Include="resimler\ikonlar\deletefoto.jpg" />
     <Content Include="resimler\ikonlar\deletefoto2.png" />
+    <Content Include="resimler\ikonlar\read2.png" />
     <Content Include="resimler\ikonlar\updatefoto.png" />
     <Content Include="resimler\ikonlar\updatefoto2.png" />
     <Content Include="resimler\makarna.jpeg" />
+    <Content Include="resimler\ikonlar\read.png" />
     <Content Include="resimler\team.png" />
     <Content Include="TarifOner.aspx" />
     <Content Include="Web.config" />
@@ -164,6 +167,13 @@
     </Compile>
     <Compile Include="Kullanici.Master.designer.cs">
       <DependentUpon>Kullanici.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Mesajlar.aspx.cs">
+      <DependentUpon>Mesajlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mesajlar.aspx.designer.cs">
+      <DependentUpon>Mesajlar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sqlsinif.cs" />
