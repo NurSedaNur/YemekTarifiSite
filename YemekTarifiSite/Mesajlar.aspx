@@ -5,6 +5,7 @@
         .auto-style16 {
             width: 32px;
             height: 34px;
+            background-color: #3399FF;
         }
         .auto-style13 {
             font-weight: bold;
@@ -13,6 +14,7 @@
         .auto-style17 {
             width: 42px;
             height: 34px;
+            background-color: #3399FF;
         }
         .auto-style14 {
             font-weight: bold;
@@ -22,6 +24,7 @@
         .auto-style12 {
             font-size: medium;
             height: 34px;
+            background-color: #3399FF;
         }
         .auto-style18 {
         text-align: right;
@@ -85,7 +88,7 @@
                              <asp:Label ID="Label2" runat="server" Text='<%# Eval("Mesajicerik") %>'></asp:Label>
                          </td>
                          <td class="auto-style18">
-                             <asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/resimler/ikonlar/read2.png" Width="30px" />
+                            <a href="MesajDetay.aspx?Mesajid=<%#Eval("Mesajid")%>"> <asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/resimler/ikonlar/read2.png" Width="30px" /></a>
                          </td>
                      </tr>
                  </table>

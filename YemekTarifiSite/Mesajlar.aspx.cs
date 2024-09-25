@@ -13,6 +13,7 @@ namespace YemekTarifiSite
         sqlsinif bgl=new sqlsinif();
         protected void Page_Load(object sender, EventArgs e)
         {
+            Panel2.Visible = false;
             SqlCommand komut = new SqlCommand("select * from Tbl_Mesajlar",bgl.baglanti());
             SqlDataReader dr= komut.ExecuteReader();
             DataList1.DataSource = dr;
