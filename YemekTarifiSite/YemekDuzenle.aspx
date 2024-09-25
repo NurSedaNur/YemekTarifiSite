@@ -40,6 +40,11 @@
             height: 24px;
             width: 154px;
         }
+    .auto-style15 {
+        font-size: medium;
+        color: #FFFFFF;
+        background-color: #666666;
+    }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder3" runat="server">
@@ -81,7 +86,9 @@
         </tr>
         <tr>
             <td class="auto-style7">&nbsp;</td>
-            <td class="auto-style8">&nbsp;</td>
+            <td class="auto-style8"><strong>
+                <asp:Button ID="Button2" runat="server" CssClass="auto-style15" OnClick="Button2_Click" Text="Günün Yemeği Seç" Width="250px" />
+                </strong></td>
         </tr>
     </table>
 </asp:Content>
