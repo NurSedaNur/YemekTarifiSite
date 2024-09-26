@@ -86,12 +86,14 @@
     <Content Include="resimler\ikonlar\choose.png" />
     <Content Include="resimler\ikonlar\deletefoto.jpg" />
     <Content Include="resimler\ikonlar\deletefoto2.png" />
+    <Content Include="resimler\ikonlar\oneri2.png" />
     <Content Include="resimler\ikonlar\read2.png" />
     <Content Include="resimler\ikonlar\updatefoto.png" />
     <Content Include="resimler\ikonlar\updatefoto2.png" />
     <Content Include="resimler\makarna.jpeg" />
     <Content Include="resimler\ikonlar\read.png" />
     <Content Include="resimler\team.png" />
+    <Content Include="Tarifler.aspx" />
     <Content Include="TarifOner.aspx" />
     <Content Include="Web.config" />
     <Content Include="YemekDetay.aspx" />
@@ -194,6 +196,13 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sqlsinif.cs" />
+    <Compile Include="Tarifler.aspx.cs">
+      <DependentUpon>Tarifler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tarifler.aspx.designer.cs">
+      <DependentUpon>Tarifler.aspx</DependentUpon>
+    </Compile>
     <Compile Include="TarifOner.aspx.cs">
       <DependentUpon>TarifOner.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
