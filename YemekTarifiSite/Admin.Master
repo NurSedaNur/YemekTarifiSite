@@ -56,7 +56,7 @@
                          <td style="border: thin solid #FFFFFF"><a href="Tarifler.aspx">TARİFLER</a></td>
                      </tr>
                      <tr>
-                         <td style="border: thin solid #FFFFFF">HAKKIMIZDA</td>
+                         <td style="border: thin solid #FFFFFF"><a href="HakkımızdaAdmin.aspx">HAKKIMIZDA</a></td>
                      </tr>
                      <tr>
                          <td style="border-color: #FFFFFF">&nbsp;</td>
