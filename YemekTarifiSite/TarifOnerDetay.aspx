@@ -67,15 +67,22 @@
                     </strong></td>
             </tr>
             <tr>
-                <td class="auto-style20">Öneren Mail:</td>
-                <td><strong>
+                <td class="auto-style13">Öneren Mail:</td>
+                <td class="auto-style14"><strong>
                     <asp:TextBox ID="TextBox5" runat="server" Height="20px" Width="250px"></asp:TextBox>
                     </strong></td>
             </tr>
             <tr>
+                <td class="auto-style20">Kategori:</td>
+                <td>
+                    <asp:DropDownList ID="DropDownList1" runat="server" Width="250px">
+                    </asp:DropDownList>
+                </td>
+            </tr>
+            <tr>
                 <td class="auto-style20">&nbsp;</td>
                 <td><strong>
-                    <asp:Button ID="Button2" runat="server" CssClass="auto-style12" Text="Onayla" Width="150px" />
+                    <asp:Button ID="Button2" runat="server" CssClass="auto-style12" OnClick="Button2_Click" Text="Onayla" Width="150px" />
                     </strong></td>
             </tr>
             <tr>
