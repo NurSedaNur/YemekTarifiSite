@@ -42,7 +42,7 @@
                 <td class="auto-style17"><strong>
                     <asp:Button ID="Button2" runat="server" CssClass="auto-style14" Height="30px" Text="-" Width="30px" OnClick="Button2_Click" />
                     </strong></td>
-                <td class="auto-style12">TARİFLER LİSTESİ</td>
+                <td class="auto-style12">ÖNERİLEN TARİFLERİN LİSTESİ</td>
             </tr>
         </table>
     </asp:Panel>
@@ -56,8 +56,8 @@
                             <asp:Label ID="Label1" runat="server" CssClass="auto-style10" style="font-size: large" Text='<%# Eval("TarifAd") %>'></asp:Label>
                         </td>
                         <td class="auto-style18">
-                           <%-- <a href='MesajDetay.aspx?Mesajid=<%#Eval("Mesajid")%>'>--%>
-                            <asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/resimler/ikonlar/oneri2.png" Width="30px" />
+                            <a href="TarifOnerDetay.aspx?Tarifid=<%#Eval("Tarifid")%>">
+                                <asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/resimler/ikonlar/oneri2.png" Width="30px" />
                             </a> 
                         </td>
                     </tr>
