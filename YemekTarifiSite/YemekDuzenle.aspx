@@ -7,6 +7,7 @@
         .auto-style7 {
             height: 26px;
             width: 154px;
+            font-size: medium;
         }
         .auto-style8 {
             height: 26px;
@@ -15,16 +16,17 @@
         .auto-style9 {
             height: 26px;
             text-align: right;
-            font-size: large;
+            font-size: medium;
             width: 154px;
         }
         .auto-style10 {
             text-align: right;
-            font-size: large;
+            font-size: medium;
             width: 154px;
         }
         .auto-style11 {
             width: 154px;
+            font-size: medium;
         }
         .auto-style12 {
             height: 24px;
@@ -39,12 +41,19 @@
         .auto-style14 {
             height: 24px;
             width: 154px;
+            font-size: medium;
         }
     .auto-style15 {
         font-size: medium;
         color: #FFFFFF;
         background-color: #666666;
     }
+        .auto-style16 {
+            height: 24px;
+            width: 154px;
+            text-align: right;
+            font-size: medium;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder3" runat="server">
@@ -79,7 +88,13 @@
             </td>
         </tr>
         <tr>
-            <td class="auto-style14"></td>
+            <td class="auto-style16"><strong>Yemek Görüntü:</strong></td>
+            <td class="auto-style12">
+                <asp:FileUpload ID="FileUpload1" runat="server" Width="250px" />
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style14">&nbsp;</td>
             <td class="auto-style12"><strong>
                 <asp:Button ID="Button1" runat="server" CssClass="auto-style13" ForeColor="White" OnClick="Button1_Click" Text="Güncelle" Width="250px" />
                 </strong></td>
