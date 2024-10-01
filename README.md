@@ -123,10 +123,10 @@ Below are visuals of the project.
 [User_Proje Videosunu Buradan İzleyin](https://github.com/NurSedaNur/YemekTarifiSite/blob/master/YemekSitesi/Ads%C4%B1z%20tasar%C4%B1m.gif)
 
 
+![Adsız tasarım](https://github.com/user-attachments/assets/8912cb32-28c7-40e1-a15d-fced49a40bf7)
 
 
-
-
+![Adsız tasarım (1)](https://github.com/user-attachments/assets/cf8e7e99-fbc6-4a0e-99a0-de6777006cab)
 
 
 
