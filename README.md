@@ -30,6 +30,27 @@ Bu projede, veritabanı olarak **[SSMS]** tercih edilmiştir. Veritabanı, uygul
 
 Projede, veritabanı bağlantısı **sqlsinif.cs** dosyasında tanımlanmıştır. Bu dosyada, veritabanı bağlantı bilgilerinizi girerek projeyi çalıştırabilirsiniz.
 
+### Özellikler
+
+- **Admin Paneli:**  
+  Adminler aşağıdaki yetkilere sahiptir:
+  - Kategorileri düzenleme
+  - Yemek tariflerini düzenleme
+  - Yorum onaylama
+  - Mesajları görüntüleme
+  - Günün yemeğini seçme
+  - Önerilen tarifleri onaylama
+  - Hakkımızda metnini güncelleme
+
+- **Kullanıcı Paneli:**  
+  Kullanıcılar aşağıdaki işlemleri yapabilir:
+  - Anasayfada yemek tariflerini ve bu yemeklere yapılan yorumları görüntüleme
+  - Günün yemeğini görüntüleme
+  - Tarif önerme
+  - Hakkımızda bilgisini görüntüleme
+  - Mesaj gönderme
+  - Kategoriye ait yemekleri listeleme
+
 SQL Server üzerinde veritabanını import ederek projeyi **Visual Studio**'da çalıştırabilirsiniz.  
 Bu proje, yemek tarifi paylaşımı ve yönetimi üzerine geliştirilmiş tam kapsamlı bir uygulama örneğidir.
 
@@ -64,6 +85,27 @@ In this project, **[SSMS]** was preferred as the database. The database plays an
 ### Database Connection
 
 In the project, the database connection is defined in **sqlsinif.cs** file. In this file, you can run the project by entering your database connection information.
+
+#### Features
+
+- **Admin Panel:**  
+  Admins have the following authorizations:
+  - Edit categories
+  - Editing recipes
+  - Comment approval
+  - View messages
+  - Choosing the meal of the day
+  - Approval of proposed recipes
+  - Update about us text
+
+- **User Panel:**  
+  Users can do the following operations:
+  - View recipes and comments on these recipes on the homepage
+  - View the dish of the day
+  - Recipe suggestion
+  - View information about us
+  - Sending a message
+  - List the dishes belonging to the category
 
 You can run the project in **Visual Studio** by importing the database on **SQL Server**.  
 This project is an example of a complete application for recipe sharing and management.
