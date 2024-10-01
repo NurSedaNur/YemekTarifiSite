@@ -7,7 +7,7 @@ Bu projede, [bu YouTube playlistindeki](https://www.youtube.com/playlist?list=PL
 
 Bu projede, veritabanı olarak **[SSMS]** tercih edilmiştir. Veritabanı, uygulamanın veri yönetimi ve saklama işlemlerinde önemli bir rol oynamaktadır. Proje sürecinde kullanılan veritabanı yapısı ve tabloların şeması aşağıda belirtilmiştir:
 
-#### Veritabanı Yapısı
+### Veritabanı Yapısı
 
 - **Tablo 1: Tbl_GununYemegi**  
   - GununYemegiid, GununYemegiAd, GununYemegiMalzeme, GununYemegiTarif, GununYemegiResim, GununYemegiPuan, GununYemegiTarih.
@@ -77,3 +77,23 @@ Below are visuals of the project.
 
 
 [Proje Videosunu Buradan İzleyin](https://github.com/NurSedaNur/YemekTarifiSite/blob/master/YemekSitesi/admin.mp4)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
