@@ -74,3 +74,6 @@ This project is an example of a complete application for recipe sharing and mana
 
 Aşağıda projeye ait görseller bulunmaktadır.  
 Below are visuals of the project.
+
+
+[Proje Videosunu Buradan İzleyin](https://github.com/NurSedaNur/YemekTarifiSite/blob/master/YemekSitesi/admin.mp4)
