@@ -118,7 +118,9 @@ Aşağıda projeye ait görseller bulunmaktadır.
 Below are visuals of the project.
 
 
-[Proje Videosunu Buradan İzleyin](https://github.com/NurSedaNur/YemekTarifiSite/blob/master/YemekSitesi/admin.mp4)
+[Admin_Proje Videosunu Buradan İzleyin]([https://github.com/NurSedaNur/YemekTarifiSite/blob/master/YemekSitesi/admin.mp4](https://github.com/NurSedaNur/YemekTarifiSite/blob/master/YemekSitesi/Ads%C4%B1z%20tasar%C4%B1m%20(1).gif))
+
+[User_Proje Videosunu Buradan İzleyin](https://github.com/NurSedaNur/YemekTarifiSite/blob/master/YemekSitesi/Ads%C4%B1z%20tasar%C4%B1m.gif)
 
 
 
